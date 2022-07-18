@@ -1,0 +1,52 @@
+[
+    {
+        "name" : "Web Development",
+        "alias" : "web_development",
+        "icon" : "./images/web.png"
+    },
+    {
+        "name" : "App Development",
+        "alias" : "app_development",
+        "icon" : "./images/app.jpg"
+    },
+    {
+        "name" : "Software Enginneering",
+        "alias" : "software_engineering",
+        "icon" : "./images/software.jpg"
+    },
+    {
+        "name" : "Graphic Design",
+        "alias" : "graphic_design",
+        "icon" : "./images/design.jpg"
+    },
+    {
+        "name" : "Content Writing",
+        "alias" : "content_writing",
+        "icon" : "./images/writing.png"
+    },
+    {
+        "name" : "Data Analytics",
+        "alias" : "data_analytics",
+        "icon" : "./images/data_analytics.jpg"
+    },
+    {
+        "name" : "Human Resources",
+        "alias" : "human_resource",
+        "icon" : "./images/hr.png"
+    },
+    {
+        "name" : "Business Development",
+        "alias" : "business_development",
+        "icon" : "./images/business.png"
+    },
+    {
+        "name" : "Law/Legal",
+        "alias" : "legal",
+        "icon" : "./images/law.png"
+    },
+    {
+        "name" : "Campus Ambassador",
+        "alias" : "campus_ambassador",
+        "icon" : "./images/ambassador.png"
+    }
+]
