@@ -1,7 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GloablStyles = createGlobalStyle`
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Nanum+Brush+Script&family=Roboto+Slab&family=Russo+One&family=Teko&display=swap');
 html {
     --dark-blue: #005acd;
     --strong-blue: #0093cb;

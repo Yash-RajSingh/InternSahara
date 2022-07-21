@@ -5,7 +5,7 @@ const Message = () => {
         <>
         <MessageContainer>
             <HiredMessage>It's time to get hired <br /> and <br /> Fulfill your dreams!!</HiredMessage>
-            <HiredImage src={Hired} />
+            <HiredImage src={Hired} alt="Hired man"/>
         </MessageContainer>
         </>
      );

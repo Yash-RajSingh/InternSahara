@@ -22,7 +22,7 @@ const Landing = () => {
           <LandingMessage>Don't worry, InterSahara  is here to be your "Sahara" inorder to help you secure your dream internship.</LandingMessage>
           <Button onClick={HandleScroll}>Get Started</Button>
         </LandingMessageContainer>
-        <LandingImage src={Student} />
+        <LandingImage src={Student} alt="Candidate"/>
       </LandingWrapper>
     </>
   );
