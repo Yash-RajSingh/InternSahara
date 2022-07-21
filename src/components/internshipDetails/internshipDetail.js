@@ -95,7 +95,7 @@ const InternshipDetails = (data) => {
       <InternshipDetailsContainer>
         <SubHeader>
           <Link to="/">
-            <GoBackButton src={Back} />
+            <GoBackButton src={Back} alt="Back Button" />
           </Link>
           <InternShipTitle>{title} Internships</InternShipTitle>
         </SubHeader>
@@ -146,7 +146,7 @@ const InternshipDetails = (data) => {
                 return (
                   <>
                     <InternshipCard key={index}>
-                      <CompanyLogo src={logo} loading="lazy" />
+                      <CompanyLogo src={logo} loading="lazy" alt="Company logo" />
                       <InternshipRole> {element.role} </InternshipRole>
                       <InternshipCompany> {element.company} </InternshipCompany>
                       <IconWrapper>

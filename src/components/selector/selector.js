@@ -25,7 +25,7 @@ const Selector = () => {
                   }}
                   key={index}
                 >
-                  <SelectorIcon src={element.icon} />
+                  <SelectorIcon src={element.icon} alt="Icon" />
                   <SelectorTitle>{element.name}</SelectorTitle>
                 </SelectorItem>
               </>
