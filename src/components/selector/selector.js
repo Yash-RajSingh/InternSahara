@@ -16,13 +16,14 @@ const Selector = () => {
       <SelectorContainer id="selector">
         <SelectorHeading>Choose your stream</SelectorHeading>
         <SelectorWrapper>
-          {SelectorData.map((element) => {
+          {SelectorData.map((element, index) => {
             return (
               <>
                 <SelectorItem
                   onClick={() => {
                     navigate(`/internships/${element.alias}`);
                   }}
+                  key={index}
                 >
                   <SelectorIcon src={element.icon} />
                   <SelectorTitle>{element.name}</SelectorTitle>

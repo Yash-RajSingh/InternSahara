@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 export const SelectorContainer = styled.div`
   margin-top: 10%;
+  @media (max-width: 720px) {
+    margin-top: 20%;
+    width: 99%;
+  }
 `;
 
 export const SelectorHeading = styled.p`
@@ -17,6 +21,9 @@ export const SelectorWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  @media (max-width: 720px) {
+    margin-top: 3%;
+  }
 `;
 
 export const SelectorItem = styled.div`
@@ -26,12 +33,20 @@ export const SelectorItem = styled.div`
   padding: 1.25rem 1rem;
   background: var(--mild-blue);
   text-align: center;
+  @media (max-width: 720px) {
+    width: 12rem;
+    margin-top: 5%;
+  }
 `;
 
 export const SelectorIcon = styled.img`
   width: 3rem;
   height: 3rem;
   margin-top: 3%;
+  @media (max-width: 720px) {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
 `;
 
 export const SelectorTitle = styled.p`
