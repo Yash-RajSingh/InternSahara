@@ -6,6 +6,7 @@ import {
   SubContainer,
   FooterMessage,
   FooterBottom,
+  Credits,
 } from "./footerElements";
 import { Link, useNavigate } from "react-router-dom";
 
@@ -23,7 +24,7 @@ const Footer = () => {
         </Link>
         <FooterBottom>
           <FooterMessage>
-            Its time to grab and ace that internship that you've always dreamed
+            Time to grab and ace that internship that you've always dreamed
             of!
           </FooterMessage>
           <SubContainerWrapper>
@@ -63,6 +64,7 @@ const Footer = () => {
             </SubContainer>
           </SubContainerWrapper>
         </FooterBottom>
+          <Credits>Credits © Internshala</Credits>
       </FooterWrapper>
     </>
   );

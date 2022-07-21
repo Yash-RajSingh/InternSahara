@@ -16,6 +16,9 @@ html {
 
 body{
     background: var(--white);
+    @media (max-width: 720px) {
+    width: 100vw;
+  }
 }
 
 ::-webkit-scrollbar {
