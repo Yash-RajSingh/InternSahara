@@ -146,7 +146,7 @@ const InternshipDetails = (data) => {
                 return (
                   <>
                     <InternshipCard key={index}>
-                      <CompanyLogo src={logo} loading="lazy" alt="logo" />
+                      {logo && <CompanyLogo src={logo} loading="lazy" alt="logo" />}
                       <InternshipRole> {element.role} </InternshipRole>
                       <InternshipCompany> {element.company} </InternshipCompany>
                       <IconWrapper>
