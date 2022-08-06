@@ -1,5 +1,10 @@
+<div align="center">
+<img src="https://user-images.githubusercontent.com/85413348/183247406-89408bde-3a74-4598-afd9-5648e6ef1673.png" height="50" width="50">
 
 # InternSahara
+
+</div>
+
 A website that lists out internship openings in different fields.
 
 ## Tech Stack
