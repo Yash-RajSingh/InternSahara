@@ -68,7 +68,7 @@ const InternshipDetails = (data) => {
     const getInternshipData = async () => {
       try {
         const request = await fetch(
-          `https://internscrapper.herokuapp.com/openings/${data.title}`
+          `https://scapper-express.vercel.app/openings/${data.title}`
         );
         const response = await request.json();
         // console.log(response);
